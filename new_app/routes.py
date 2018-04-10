@@ -7,7 +7,7 @@ app.config.from_object(Config)
 
 
 
-from app.forms import LoginForm
+from new_app.forms import LoginForm
 
 @app.route('/')
 @app.route('/index')
@@ -23,7 +23,7 @@ def index():
             'body': 'The Avengers movie was so cool!'
         }
     ]
-    return render_template('index.html', title='Home', user=user, posts=posts)
+    return render_template('index.html', title='Home', user="..img/img1.jpg", posts=posts)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
