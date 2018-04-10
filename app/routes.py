@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template, flash, redirect, url_for
+from app.database import *
 app = Flask(__name__)
 from app.config import Config
 app.config.from_object(Config)
@@ -30,6 +31,7 @@ def login():
     if form.validate_on_submit():
         flash('Login requested for user {}, remember_me={}'.format(
             form.username.data, form.remember_me.data))
+        print(form.password.data)
         return redirect('/index')
     return render_template('login.html', title='Sign In', form=form)
 
