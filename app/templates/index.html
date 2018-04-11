@@ -1,7 +1,5 @@
 {% extends "base.html" %}
-		<link href="./css/semantic.min.css" rel="stylesheet">
-        <script src="./css/jquery-3.3.1.min.js" ></script>
-        <script src="./css/semantic.min.js" ></script>
+		
 {% block content %}
 
     <h1>Hi, {{ user.username }}!</h1>
@@ -9,10 +7,10 @@
     <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
     {% endfor %}
     <div class="ui large images">
-  <img src= "{{user}}">
+  <img src= "{{img}}">
 
     <button class="ui toggle button active">favorite</button>
-  <img src="../img/img2.jpg">
+  <img src="..static/img/img2.jpg">
 
     <button class="ui toggle button active">favorite</button>
 

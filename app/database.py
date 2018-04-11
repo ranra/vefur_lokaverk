@@ -1,6 +1,6 @@
 import pymysql
-conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='2209922929', passwd='mypassword', db='2209922929_vefur')
-cur = conn.cursor()
+# conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='2209922929', passwd='mypassword', db='2209922929_vefur')
+# cur = conn.cursor()
 
 def create(username, name, email, password):
     cur.execute(
