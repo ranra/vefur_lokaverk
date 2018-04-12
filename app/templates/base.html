@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="../static/semantic.min.css" rel="stylesheet">
+        <link href="../static/mittcss.css" rel="stylesheet">
         <script src="../static/jquery-3.3.1.min.js" ></script>
         <script src="../static/semantic.min.js" ></script>
         {% if title %}
@@ -10,13 +11,16 @@
         {% endif %}
     </head>
     <body>
-        <button class="ui toggle button active right floated" style="float-right:-1000px;">Sign in</button>
-         <div>
-        Microblog:
-        <a href="{{ url_for('index') }}">Home</a>
-        <a href="{{ url_for('login') }}">Login</a>
-    </div>
-        <hr>
+            <div class="ui three item menu">
+  <a class="item active" href="/gallery">Gallery</a>
+  <a class="item" href="/">mínar síður</a>
+  <a class="item" href="/login">sign in</a>
+  
+</div>
+
+        
+   
+        
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         <ul>
