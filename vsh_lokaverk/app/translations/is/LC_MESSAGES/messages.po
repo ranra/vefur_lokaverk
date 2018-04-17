@@ -20,23 +20,23 @@ msgstr ""
 
 #: app/__init__.py:20
 msgid "Please log in to access this page."
-msgstr "skráðu þig inn til að sjá"
+msgstr "Skráðu þig inn til að sjá"
 
 #: app/email.py:22
 msgid "[Microblog] Reset Your Password"
-msgstr "setja nýtt lýkilorð"
+msgstr "Setja nýtt lykilorð"
 
 #: app/forms.py:11 app/forms.py:18 app/forms.py:51
 msgid "Username"
-msgstr "notendanafn"
+msgstr "Notendanafn"
 
 #: app/forms.py:12 app/forms.py:20 app/forms.py:43
 msgid "Password"
-msgstr "lykilorð"
+msgstr "Lykilorð"
 
 #: app/forms.py:13
 msgid "Remember Me"
-msgstr "muna eftir mér"
+msgstr "Muna eftir mér"
 
 #: app/forms.py:14 app/routes.py:74 app/templates/login.html:5
 msgid "Sign In"
@@ -48,196 +48,196 @@ msgstr "Email"
 
 #: app/forms.py:22 app/forms.py:45
 msgid "Repeat Password"
-msgstr "endurtaka lykilorð"
+msgstr "Endurtaktu lykilorð"
 
 #: app/forms.py:24 app/routes.py:95 app/templates/register.html:5
 msgid "Register"
-msgstr "skráning"
+msgstr "Nýskráning"
 
 #: app/forms.py:29 app/forms.py:64
 msgid "Please use a different username."
-msgstr "notaðu annað lykilorð"
+msgstr Notaðu annað lykilorð"
 
 #: app/forms.py:34
 msgid "Please use a different email address."
-msgstr ""
+msgstr "Vinsamlegast notaðu nýtt lykilorð"
 
 #: app/forms.py:39 app/forms.py:47
 msgid "Request Password Reset"
-msgstr ""
+msgstr "Biðja um nýtt lykilorð"
 
 #: app/forms.py:52
 msgid "About me"
-msgstr ""
+msgstr "Um mig"
 
 #: app/forms.py:54 app/forms.py:69
 msgid "Submit"
-msgstr "skrá"
+msgstr "Skrá"
 
 #: app/forms.py:68
 msgid "Say something"
-msgstr ""
+msgstr "Segðu eitthvað"
 
 #: app/routes.py:30
 msgid "Your post is now live!"
-msgstr " pósturinn er lifandi"
+msgstr "Pósturinn er lifandi"
 
 #: app/routes.py:39 app/templates/base.html:21
 msgid "Home"
-msgstr "hrim"
+msgstr "Heim"
 
 #: app/routes.py:54 app/templates/base.html:22
 msgid "Explore"
-msgstr "skoða"
+msgstr "Skoða"
 
 #: app/routes.py:67
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Vitlaust notendanafn eða lykilorð"
 
 #: app/routes.py:93
 msgid "Congratulations, you are now a registered user!"
-msgstr ""
+msgstr "Til Lukku, þú ert nýr notandi"
 
 #: app/routes.py:108
 msgid "Check your email for the instructions to reset your password"
-msgstr ""
+msgstr "skoðaðu póstinn þinn"
 
 #: app/routes.py:111 app/templates/reset_password_request.html:5
 msgid "Reset Password"
-msgstr ""
+msgstr "Endurskrá lykilorð"
 
 #: app/routes.py:125
 msgid "Your password has been reset."
-msgstr ""
+msgstr "Lykilorðiðinu hefur verið breytt"
 
 #: app/routes.py:153
 msgid "Your changes have been saved."
-msgstr ""
+msgstr "Breytingar hafa verið vistaðar"
 
 #: app/routes.py:158 app/templates/edit_profile.html:5
 msgid "Edit Profile"
-msgstr ""
+msgstr "Breyta profíl"
 
 #: app/routes.py:167 app/routes.py:183
 #, python-format
 msgid "User %(username)s not found."
-msgstr ""
+msgstr "Notandinn finnst ekki"
 
 #: app/routes.py:170
 msgid "You cannot follow yourself!"
-msgstr ""
+msgstr "Getur ekki elt sjálfan þig"
 
 #: app/routes.py:174
 #, python-format
 msgid "You are following %(username)s!"
-msgstr ""
+msgstr "Þú ert að elta"
 
 #: app/routes.py:186
 msgid "You cannot unfollow yourself!"
-msgstr ""
+msgstr "Getur ekki hættað elta sjálfan þig"
 
 #: app/routes.py:190
 #, python-format
 msgid "You are not following %(username)s."
-msgstr ""
+msgstr "Þú ert ekki að elta"
 
 #: app/templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "finnst ekki"
 
 #: app/templates/404.html:5 app/templates/500.html:6
 msgid "Back"
-msgstr ""
+msgstr "Til baka"
 
 #: app/templates/500.html:4
 msgid "An unexpected error has occurred"
-msgstr ""
+msgstr "óvænt vitleysa"
 
 #: app/templates/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
-msgstr ""
+msgstr "búið að tilkynna leiðindinn "
 
 #: app/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
-msgstr ""
+msgstr "sagði"
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
-msgstr ""
+msgstr "Velkominn á facebook.2"
 
 #: app/templates/base.html:26
 msgid "Login"
-msgstr ""
+msgstr "Innskráning"
 
 #: app/templates/base.html:28
 msgid "Profile"
-msgstr ""
+msgstr "Prófíll"
 
 #: app/templates/base.html:29
 msgid "Logout"
-msgstr ""
+msgstr "Útskráning"
 
 #: app/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s!"
-msgstr ""
+msgstr "Halló"
 
 #: app/templates/index.html:17 app/templates/user.html:31
 msgid "Newer posts"
-msgstr ""
+msgstr "Nýrri vitleysa"
 
 #: app/templates/index.html:22 app/templates/user.html:36
 msgid "Older posts"
-msgstr ""
+msgstr "Eldri vitleysa"
 
 #: app/templates/login.html:12
 msgid "New User?"
-msgstr ""
+msgstr "Nýr notandi?"
 
 #: app/templates/login.html:12
 msgid "Click to Register!"
-msgstr ""
+msgstr "Klikkaðu til að skrá þig"
 
 #: app/templates/login.html:14
 msgid "Forgot Your Password?"
-msgstr ""
+msgstr "Gleymdiru lykilorðinu"
 
 #: app/templates/login.html:15
 msgid "Click to Reset It"
-msgstr ""
+msgstr "Klikkaðu til að endurnýja"
 
 #: app/templates/reset_password.html:5
 msgid "Reset Your Password"
-msgstr ""
+msgstr "endurnýja lykilorð"
 
 #: app/templates/user.html:8
 msgid "User"
-msgstr ""
+msgstr "Notandi"
 
 #: app/templates/user.html:11
 msgid "Last seen on"
-msgstr ""
+msgstr "Seinast séður"
 
 #: app/templates/user.html:13
 #, python-format
 msgid "%(count)d followers"
-msgstr ""
+msgstr "Eltendur"
 
 #: app/templates/user.html:13
 #, python-format
 msgid "%(count)d following"
-msgstr ""
+msgstr "Eltandi"
 
 #: app/templates/user.html:15
 msgid "Edit your profile"
-msgstr ""
+msgstr "Breyta Prófíl"
 
 #: app/templates/user.html:17
 msgid "Follow"
-msgstr ""
+msgstr "ELta"
 
 #: app/templates/user.html:19
 msgid "Unfollow"
-msgstr ""
+msgstr "Hætta að elta"
 

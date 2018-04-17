@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec054e3-af49-4746-8435-15953990f7f8" name="Default" comment="" />
+    <list default="true" id="aec054e3-af49-4746-8435-15953990f7f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/app.db" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/app.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/translations/is/LC_MESSAGES/messages.mo" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/translations/is/LC_MESSAGES/messages.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/translations/is/LC_MESSAGES/messages.po" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/translations/is/LC_MESSAGES/messages.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/run.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/run.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,8 +88,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
