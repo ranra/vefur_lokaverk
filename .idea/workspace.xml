@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec054e3-af49-4746-8435-15953990f7f8" name="Default" comment="" />
+    <list default="true" id="aec054e3-af49-4746-8435-15953990f7f8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vsh_lokaverk/microblog.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/__init__.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/main/forms.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/main/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/main/routes.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/main/routes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/models.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/search.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/app/templates/base.html" afterPath="$PROJECT_DIR$/vsh_lokaverk/app/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsh_lokaverk/config.py" afterPath="$PROJECT_DIR$/vsh_lokaverk/config.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vsh_lokaverk/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <marker date="1524156464282" expanded="true" signature="161:800" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vsh_lokaverk/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,6 +68,7 @@
         <option value="$PROJECT_DIR$/app/routes.py" />
         <option value="$PROJECT_DIR$/app/database.py" />
         <option value="$PROJECT_DIR$/vsh_lokaverk/app/config.py" />
+        <option value="$PROJECT_DIR$/vsh_lokaverk/config.py" />
       </list>
     </option>
   </component>
@@ -72,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,7 +106,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,37 +289,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vsh_lokaverk/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <marker date="1524156464282" expanded="true" signature="161:800" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py" />
+    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py" />
+    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/app/config.py" />
+    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1524156464282" expanded="true" signature="161:800" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vsh_lokaverk/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
